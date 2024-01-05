@@ -1,0 +1,27 @@
+.chat{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+
+    .top{
+        flex: 1;
+        border: 1px solid black;
+    }
+    .chatting{
+        flex: 5;
+        border: 1px solid black;
+    }
+    .inputed{
+        display: flex;
+        flex: 1;
+        gap: 10px;
+        border: 1px solid black;
+
+        input{
+            background-color: red;
+            border: none;
+            height: 40px;
+            width: 100%;
+        }
+    }
+}
